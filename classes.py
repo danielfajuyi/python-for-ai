@@ -1,25 +1,27 @@
-class Dog: 
-    def __init__(self, name, breed="None"): 
-        self.name = name 
+class Dog:
+    def __init__(self, name, breed="None"):
+        self.name = name
         self.breed = breed
 
-class Cat: 
-    def __init__(self, name, color): 
+
+class Cat:
+    def __init__(self, name, color):
         self.name = name
-        self.color = color 
+        self.color = color
+
 
 jerry = Dog(name="Jerry", breed="Labrador")
 
-jerry.name 
+print(jerry.name)  # Jerry
 
 dog = Dog(name="Buddy", breed="Golden Retriever")
 
-dog.breed
+print(dog.name)  # Buddy
 
 
-
-class Fish: 
-    def __init__(self, name): 
+class Fish:
+    def __init__(self, name):
         self.name = name
-        
+
+
 jerry = Dog(name="jerry")
