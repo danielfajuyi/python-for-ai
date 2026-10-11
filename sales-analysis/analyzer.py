@@ -2,7 +2,7 @@
 import pandas as pd
 from helpers import calculate_total, format_currency
 
-# Read data
+# Read the data
 df = pd.read_csv('data/sales.csv')
 
 # Calculate total for each row
